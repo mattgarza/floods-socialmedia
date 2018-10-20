@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Example</title>
+		<style>
+			html, body
+			{
+				background: white;
+			}
+			#header
+			{
+				background: gray;
+			}
+			#row
+			{
+				display: flex;
+				background: yellow;
+			}
+			#leftnav
+			{
+				float: left;
+				width: 150px;
+				background: red;
+			}
+			#main
+			{
+				background: green;
+				width: calc(100% - 150px)
+			}
+			#footer
+			{
+				background: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			Header
+		</div>
+		<div id="row">
+			<div id="leftnav">
+				Left Nav<br>Left Nav<br>Left Nav
+			</div>
+			<div id="main">
+				Main
+			</div>
+		</div>
+		<div id="footer">
+			Footer
+		</div>
+	</body>
+</html>
