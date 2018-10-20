@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<style>
+			html, body
+			{
+			}
+			#header{
+				
+			}
+			#row
+			{
+				display: flex;
+			}
+			#leftnav
+			{
+				float: left;
+				width: 150px;
+				background: red;
+			}
+			#main
+			{
+				width: calc(100% - 150px)
+			}
+			#footer
+			{
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>About the Team</h1>
+		</div>
+		<div id="row">
+			<div id="main">
+				<h2>Matthew Garza</h2>
+				<p>
+					My name is Matthew Garza and I am currently seeking my MAGeo in Geographic Information Science. I received my BS in Physical Geography from Texas State in 2013 and started my MAGeo in 2014. I have been on a 3-year hiatus from grad school while working at Texas State University. My research interest align with GIS and water resources. Specifically groundwater vulnerability and flood management. I am also interested in utilizing front end web development including JavaScript, HTML, and Python to help solve geospatial problems.
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			
+		</div>
+	</body>
+</html>
